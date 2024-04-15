@@ -8,6 +8,10 @@ public class Digits
 	public Digits(int num)
 	{ /* to be implemented in part (a) */ 
 	   int temp = num;
+		if(temp==0)
+		{
+			digitList.add(0,0);
+		}
 		while(temp>0)
 			{
 				digitList.add(0,temp%10);
